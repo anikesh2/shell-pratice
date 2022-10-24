@@ -1,0 +1,17 @@
+#!/bin/bash
+#Author: Anikesh
+#Date: 24/10/2022
+
+echo "This is basic bash file i m learning how to wirte bash files"
+
+printf "Current dir : "
+pwd
+
+printf "\nCurrent files in dir : "
+ls -la
+
+printf "\nCurrent User: "
+whoami
+
+printf "Creating new Files : "
+touch a b c 
